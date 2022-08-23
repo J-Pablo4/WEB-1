@@ -1,0 +1,29 @@
+h1{
+    font-size: 30px;
+}
+p{
+    color: red;
+}
+.secundario{
+    color: blue;
+}
+#primer{
+    color: green;
+}
+
+ul{
+    list-style: circle;
+}
+ol{
+    list-style: lower-alpha;
+}
+p span{
+    color: green;
+}
+ul li{
+    color: red;
+}
+ol > li{
+    color: green;
+}
+
