@@ -2,10 +2,23 @@
 <html> <!-- Portada o inicio de codigo -->
     <head> <!-- Informacion para el navegador -->
         <title>Ejercicio</title> <!-- se muestra en el tab del navegador. Identificador de pagina -->
+        <!--Afecta a una etiqueta en especifico-->
+        <link rel="stylesheet" href="estilos.css"> <!--link de hoja de estilo-->
+        <style> 
+            h3{
+                font-size: 60px;
+            }
+            p{
+                color: red;
+            }
+            a{
+                color:cadetblue ;
+            }
+        </style>
     </head>
     <body><!-- Informacion que visualiza el usuario/contenido -->
-        <h1>Encabezado principal</h1>
-        <h2>Encabezado secundario</h2>
+        <h1 style="color:rgb(43, 104, 226); margin:0">Encabezado principal</h1>
+        <h2 style="color:red">Encabezado secundario</h2>
         <h3>Encabezado tres</h3>
         <h4>Encabezado cuatro</h4>
         <h5>Encabezado cinco</h5>
@@ -20,5 +33,11 @@
         <p>
             Esto es un parrafo de nuestro <span>primer</span> ejercicio de html.
         </p>
+        <a href="https://google.com">Ir a google</a> <!--Anchor, ir o redirigir a otra pagina. Hipervinculo-->
+        <a href="https://google.com">Otro link a google</a> <!--Elemento de linea-->
+        <a style="color:black" href="https://google.com">Un enlace mas a google</a>
+        <img src="https://iteso.mx/lfportal-publico-theme/images/img/logos/Logo-ITESO-MinimoV.png"/> <!--Incluir imagen-->
+
+        <script></script> <!--Scripts hasta el final para que funcione la funcionalidad-->
     </body>
 </html> <!-- Contraportada/Fin del codigo -->
