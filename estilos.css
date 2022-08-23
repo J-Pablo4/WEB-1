@@ -12,7 +12,7 @@ p{
 }
 
 ul{
-    list-style: circle;
+    list-style: none;
 }
 ol{
     list-style: lower-alpha;
